@@ -6,8 +6,9 @@ body {
   font-family: 'Pontano Sans', sans-serif;
   font-size: 1.2em;
   color: #666;
-  background-color: #fef4b2;
-  /*margin: 0 auto;*/
+  background: white top left url(../img/food.png) repeat;
+  /*background: #fef4b2;
+  margin: 0 auto;*/
 }
 a:hover {
 	text-decoration: none;
@@ -20,42 +21,57 @@ h1 {
 	font-size: 2em;
 	padding: 0.3em 0;
 }
+.hidden{
+  display: none;
+}
 
 /*header*/
 
 .wrapper-header {
   width: 100%;
+  height: 10%;
   margin: 0 auto;
   position: relative;
-  background: white url(../img/header.png) no-repeat;
+  background: white top left url(../img/ines-hd3.png) no-repeat;
   overflow: auto;
+  background-size: cover;
 }
-#logo {
-  width: 105px;
-  height: 147px;
+.logo {
+  width: 130px;
+  height: 166px;
   margin: 20px 0 0 30px;  
 }
 #networks {
-  display: inline-block;
-  float:right;
-
+  position: absolute;
+  text-align: center;
+  right: 5%;
+  top: 40px;
 }
+#networks a {
+  color: white;
+} 
 nav#main-nav li {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 0.8em;
   text-decoration: none;
-  margin: 0 auto;
-  padding: 1%;
+  margin: 1%;
 }
 #main-nav {
+  width: 100%;
   margin: 0 auto;
   background-color: white;
-  height: 50px;
+  height: 40px;
+  text-align: center;
 }
 nav#main-nav a {
   color: #990000;
+  padding: 3%;
+  margin-top: 1%
+}
+nav#main-nav ul {
+  width: 100%;
 }
 nav#main-nav a:hover{
   border-bottom: 3px solid #990000;
@@ -76,10 +92,23 @@ nav#main-nav a:hover{
 
 /*footer*/
 
-footer dl {
-  margin: 0 auto;
+footer {
+  border-top: 4px dotted white;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
+footer li {
+  text-align: center;
+  font-size: 1em;
+  letter-spacing:1px;
+  line-height: 1em;
+}  
 footer a {
   text-decoration: none;
   color: #666;
+  text-align: center;
+}
+footer p {
+  text-align: center;
+  margin-top: 2em;
 }
