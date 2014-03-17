@@ -9,54 +9,79 @@
         <title>Doña Inés Dulces Tentaciones</title>
         <meta name="description" content="Doña Inés Dulces Tentaciones">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="image/png" href="img/icon.png">
     </head>
     <body>
-        <img src="img/logodi.png">
-            <ul>
-                <li><a href="mailto:tusdulcestentaciones@gmail.es">Mail Contact</a></li>
-                <li><a href ="https://twitter.com/DonaInesdt">Twitter</a></li>
-                <li><a href ="https://www.facebook.com/donainesdt">Facebook</a></li>
-            </ul>
-        <nav>
-            <ul>
-            <li><a href ="index.html"> Home </a></li>
-            <li><a href ="nosotras.html"> Nosotras </a></li>
-            <li><a href ="meriendas.html"> Meriendas </a></li>
-            <li><a href ="tentaciones.html"> Tentaciones </a></li>
-            <li><a href ="contacto.html"> Contacto </a></li>
-            </ul>
-        </nav>
-        <section>
-            <h1>Te Quiero</h1>
-            <ul>
-            <li>1 té, café, cortado, capucchino o chocolate</li>
-            <li>1 postre o tartaleta dulcestentaciones</li>
-            <li>2 cookies o scones</li>
-            <li>2 tostadas</li>
-            <li>1 jugo de naranja</li>
-            <li>manteca </li>
-            <li>mermeladas</li>
-            </ul>
-        </section>
-
+        <header class="wrapper-header">
+            <h1 class="logo">
+                <a href="index.html" title="Inicio"><img alt="Doña Inés" src="img/logodi.png"></a>
+            </h1>
+            <ul class="networks">
+                <li class="twitter">
+                    <a href ="https://twitter.com/DonaInesdt"><span>Twitter</span></a>
+                </li>
+                <li class="facebook">
+                    <a href ="https://www.facebook.com/donainesdt"><span>Facebook</span></a>
+                </li>
+                <li class="mail">
+                    <a href="mailto"><span>Mail</span></a>
+                </li>
+            </ul>       
+            <nav id="main-nav">
+                <h1 class="hidden">Navegacion</h1>
+                <ul>
+                    <li><a href ="index.html">Home</a></li>
+                    <li><a href ="nosotras.html">Nosotras</a></li>
+                    <li><a class="active" href ="meriendas.html">Meriendas</a></li>
+                    <li><a href ="tentaciones.html">Tentaciones</a></li>
+                    <li><a href ="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            
+        </header>    
+        <main class="wrapper"> 
+            <div class="meriendas">
+                <h1>Meriendas</h1>
+                <section>
+                <img class="img-side" src="img/merienda1.jpg" alt="Merienda Te Necesito">    
+                <h2>Te necesito</h2>
+                <p>2 tés, cafés, cortados, capucchinos o chocolates + 1 porción de torta +2 cupcakes + 2 cookies o scones + 4 tostadas + 2 jugos de naranja +  manteca y mermeladas. </p> 
+            </section>
+            <section>
+                <img class="img-side" src="img/merienda2.jpg" alt="Merienda Te Amo">        
+                <h2>Te amo</h2>
+                <p>1 té, café, cortado, capucchino o chocolate + 1 porción de torta + 2 cookies o scones + 2 tostadas + 1 jugo de naranja + manteca y mermeladas.</p> 
+            </section>
+            <section>
+                <img class="img-side" src="img/merienda3.jpg" alt="Merienda Te Quiero">        
+                <h2>Te quiero</h2>
+                <p>1 té, café, cortado, capucchino o chocolate + 1 postre o tartaleta dulce + 2 cookies o scones + 2 tostadas + 1 jugo de naranja + manteca y mermeladas.</p> 
+            </section>
+            <section>
+                <img class="img-side" src="img/merienda4.jpg" alt="Merienda Te Extraño">        
+                <h2>Te extraño</h2>
+                <p>1 té, café, cortado, capucchino o chocolate + 2 cupcakes + 2 cookies o scones + 2 tostadas + 1 jugo de naranja + manteca y mermeladas.</p> 
+            </section>
+            <section>
+                <img class="img-side" src="img/merienda5.jpg" alt="Merienda Te Odio">        
+                <h2>Te odio</h2>
+                <p>1 té, café, cortado, capucchino o chocolate + 1 tartaleta salada + 2 cookies o scones + 2 tostadas + 1 jugo de naranja + manteca y mermeladas.</p> 
+            </section>
+</div>
+        </main> 
     <footer>
-        <h1>Doña Inés... Dulces tentaciones</h1>
-        <dl>
-        <dt>Dirección</dt>
-        <dd>Miguel Barreiro 3293 esq. Chucarro. Montevideo, Uruguay</dd>
-        <dt>Teléfono</dt>
-        <dd><a href="tel:27080349">2 708 0349</a></dd>
-        <dt>Email</dt>
-        <dd><a href="mailto:dulcestentaciones@gmail.com">dulcestentaciones@gmail.com</a></dd>
-        </dl>
+        <ul>
+            <p>Doña Inés... Dulces tentaciones</p>
+            <li>Miguel Barreiro 3293 esq. Chucarro.</li> 
+            <li>Montevideo, Uruguay </li>
+            <li>Teléfono  <a href="tel:27080349">2 708 0349</a></li>
+            <li><a href="mailto:dulcestentaciones@gmail.com">dulcestentaciones@gmail.com</a></li>
+        </ul>
     </footer>
-        
+      
 
     </body>
 </html>
